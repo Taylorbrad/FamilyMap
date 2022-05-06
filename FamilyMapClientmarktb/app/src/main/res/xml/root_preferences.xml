@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Toggle Lines and People/Event Filters">
+
+        <SwitchPreference
+            app:key="lifeLines"
+            app:summary="Toggle Life Story Lines"
+            app:title="Life Story Lines"/>
+        <SwitchPreference
+            app:key="treeLines"
+            app:summary="Toggle Family Tree Lines"
+            app:title="Family Tree Lines"/>
+        <SwitchPreference
+            app:key="spouseLines"
+            app:summary="Toggle Spouse Lines"
+            app:title="Spouse Lines"/>
+        <SwitchPreference
+            app:key="fatherSide"
+            app:summary="Toggle Father's Side"
+            app:title="Father's Side"/>
+        <SwitchPreference
+            app:key="motherSide"
+            app:summary="Toggle Mother's Side"
+            app:title="Mother's Side"/>
+        <SwitchPreference
+            app:key="maleEvents"
+            app:summary="Toggle Male Events"
+            app:title="Male Events"/>
+        <SwitchPreference
+            app:key="femaleEvents"
+            app:summary="Toggle Female Events"
+            app:title="Female Events" />
+        <Preference
+            android:key="logout"
+            android:singleLine="true"
+            android:title="Logout" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

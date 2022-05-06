@@ -1,0 +1,67 @@
+{
+   "users":[
+      {
+         "username":"sheila",
+         "password":"parker",
+         "email":"sheila@parker.com",
+         "firstName":"Sheila",
+         "lastName":"Parker",
+         "gender":"f",
+         "personID":"Sheila_Parker"
+      },
+      {
+         "username":"patrick",
+         "password":"spencer",
+         "email":"patrick@spencer.com",
+         "firstName":"Patrick",
+         "lastName":"Spencer",
+         "gender":"m",
+         "personID":"Patrick_Spencer"
+      }
+   ],
+   "persons":[
+      {
+         "firstName":"Sheila",
+         "lastName":"Parker",
+         "gender":"f",
+         "personID":"Sheila_Parker",
+         "spouseID":"Davis_Hyer",
+         "fatherID":"Blaine_McGary",
+         "motherID":"Betty_White",
+         "associatedUsername":"sheila"
+      },
+      {
+         "firstName":"Davis",
+         "lastName":"Hyer",
+         "gender":"m",
+         "personID":"Davis_Hyer",
+         "spouseID":"Sheila_Parker",
+         "associatedUsername":"sheila"
+      }
+   ],
+   "events":[
+      {
+         "eventType":"birth",
+         "personID":"Sheila_Parker",
+         "city":"Melbourne",
+         "country":"Australia",
+         "latitude":-36.1833,
+         "longitude":144.9667,
+         "year":1970,
+         "eventID":"Sheila_Birth",
+         "associatedUsername":"sheila"
+      },
+      {
+         "eventType":"marriage",
+         "personID":"Sheila_Parker",
+         "city":"Los Angeles",
+         "country":"United States",
+         "latitude":34.0500,
+         "longitude":-117.7500,
+         "year":2012,
+         "eventID":"Sheila_Marriage",
+         "associatedUsername":"sheila"
+      }
+   ]
+}
+
